@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Engineering on Smartworkz | Smart experts in data science &amp; data engineering</title>
+    <link>/categories/data-engineering/</link>
+    <description>Recent content in Data Engineering on Smartworkz | Smart experts in data science &amp; data engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-NL</language>
+    <copyright>Copyright &amp;copy; 2021 by [kokkelaar](https://kokkelaar.nl)</copyright>
+    <lastBuildDate>Mon, 27 Apr 2020 22:00:00 +0000</lastBuildDate><atom:link href="/categories/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerizing your development environment</title>
+      <link>/blog/dockerizing-your-development-environment/</link>
+      <pubDate>Mon, 27 Apr 2020 22:00:00 +0000</pubDate>
+      
+      <guid>/blog/dockerizing-your-development-environment/</guid>
+      <description>Most development environments are not heterogenous. Over time more languages, libraries, frameworks &amp;amp; tools are introduced into the organisation, while others are phased out.</description>
+    </item>
+    
+  </channel>
+</rss>

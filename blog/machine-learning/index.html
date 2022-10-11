@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="nl-NL"><head>
+  <meta charset="utf-8">
+  <title>Machine Learning</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="A test for machine learning">
+  <meta name="author" content="Smartworkz BV.">
+  <meta name="generator" content="Hugo 0.104.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/plugins/animate/animate.css">
+  
+  <link rel="stylesheet" href="/plugins/venobox/venobox.css">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="/plugins/owl.carousel/assets/owl.carousel.min.css">
+  
+  <link rel="stylesheet" href="/plugins/owl.carousel/assets/owl.theme.default.min.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/scss/style.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<header class="fixed-top header">
+  
+  
+  
+  <div class="navigation w-100 ">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="/"><img class="img-fluid"
+            src="/images/logo-cropped.svg" alt="Smartworkz | Smart experts in data science &amp; data engineering"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle default-cursor" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Solutions
+              </a>
+              <div class="dropdown-menu">
+                
+                <a class="dropdown-item" href="/solutions#data-oplossingen">Quick wins</a>
+                
+                <a class="dropdown-item" href="/solutions#data-consulting">Consulting</a>
+                
+                <a class="dropdown-item" href="/solutions#data-workshop">Workshops</a>
+                
+              </div>
+            </li>
+            
+            
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle default-cursor" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Insights
+              </a>
+              <div class="dropdown-menu">
+                
+                <a class="dropdown-item" href="/blog">Blogs</a>
+                
+                <a class="dropdown-item" href="/event">Events</a>
+                
+                <a class="dropdown-item" href="/insights/radar">Tech Radar</a>
+                
+              </div>
+            </li>
+            
+            
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle default-cursor" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                about
+              </a>
+              <div class="dropdown-menu">
+                
+                <a class="dropdown-item" href="/about/team">Team</a>
+                
+                <a class="dropdown-item" href="/about">Over ons</a>
+                
+              </div>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            
+            
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle default-cursor" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                career
+              </a>
+              <div class="dropdown-menu">
+                
+                <a class="dropdown-item" href="/career">Vacatures</a>
+                
+                <a class="dropdown-item" href="/career/culture">Cultuur</a>
+                
+                <a class="dropdown-item" href="/cases/">Cases</a>
+                
+              </div>
+            </li>
+            
+            
+          </ul>
+
+          
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+	
+<section class="page-title-section overlay" style="background-image: url('/'),url('/images/backgrounds/page-title.jpg');" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="/">Home</a></li>
+          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h3 font-secondary">Machine Learning</li>
+        </ul>
+        <p class="text-lighten">A test for machine learning</p>
+      </div>
+    </div>
+  </div>
+</section>
+	
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 order-2 order-lg-1">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <img src="/images/logo.jpg" alt="blog-thumb" class="img-fluid w-100">
+          </div>
+          <div class="col-12">
+            <ul class="list-inline">
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">
+                <span class="font-weight-bold mr-2">Gepost door:</span>
+                
+                <a href="/team/kyriacos-antoniades">Kyriacos Antoniades</a>
+                
+                </li>
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">
+                <span class="font-weight-bold mr-2">Datum:</span>
+                  03 Oct, 2022
+              </li>
+              <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">
+                <span class="font-weight-bold mr-2">Category:</span>
+                
+              </li>
+            </ul>
+          </div>
+          
+          <div class="col-12 my-4">
+            <div class="border-bottom"></div>
+          </div>
+          
+          <div class="col-12 mb-5">
+            <h1 id="mlops-with-cicd-on-local-git-repository">MLOps with CI/CD on local Git repository</h1>
+<p><strong>Train, deploy, and host your models on AWS.</strong></p>
+<ul>
+<li>We will download code from an S3 bucket to use throughout this workshop.</li>
+<li>It contains image classification (MNIST) code using ConvNets based on <a href="https://github.com/pytorch/examples">PyTorch examples,</a> and a CloudFormation stack.</li>
+<li>You will push this code to your GitHub repository as an initial step to create CI/CD pipeline.</li>
+</ul>
+<p><img src="/images/minst.png" alt=""></p>
+<h2 id="1-prerequisites">1. Prerequisites</h2>
+<ul>
+<li>
+<p><em>Open and log in to your</em> <a href="https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26nc2%3Dh_ct%26region%3Dus-east-1%26skipRegion%3Dtrue%26src%3Dheader-signin%26state%3DhashArgsFromTB_us-east-1_69d8e4b4ab0e37a6&amp;client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&amp;forceMobileApp=0&amp;code_challenge=uRVQqhamdm60rHPKKXydxDu4E3wcQICknuXn1V8seVo&amp;code_challenge_method=SHA-256"><em>AWS account</em></a></p>
+</li>
+<li>
+<p><em>Open and log in to your</em> <a href="https://github.com/"><em>GitHub account</em></a></p>
+</li>
+<li>
+<p>If not already done, <em>Install</em> <a href="https://code.visualstudio.com/download"><em>Visual Studio Code</em></a> <em>(VSC)</em></p>
+</li>
+<li>
+<p>If not already done, <em>Install</em> <a href="https://git-scm.com/downloads"><em>Git Bash</em></a></p>
+</li>
+<li>
+<p><em>(Optional) Configure Git Bash as the default terminal for VSC</em></p>
+<ol>
+<li>Click on View Then Terminal</li>
+<li>After the Terminal appears, press the F1 key</li>
+<li>Type the following, Terminal: Select Default Profile</li>
+<li>Select from the dropdown, Git Bash</li>
+</ol>
+</li>
+<li>
+<p><strong>Either</strong>, clone the GitHub repository in the local Git repository</p>
+<pre><code>git clone https://github.com/smartworkz-kyriacos/mlops-sagemaker-ci-cd.git
+</code></pre>
+</li>
+<li>
+<p><strong>Or</strong>, <em>download the</em> <a href=""><em>code</em></a><em>, and unzip it in the local Git repository folder path</em>.</p>
+</li>
+<li>
+<p>Then <em><code>cmd</code> from File Explorer in the path field</em></p>
+</li>
+</ul>
+<ol>
+<li>Using File Explorer navigate to the local Git Repository</li>
+</ol>
+<p><img src="/images/git-repository.png" alt=""></p>
+<ol>
+<li>In the path field type cmd and press the Enter key</li>
+</ol>
+<p><img src="/images/cmd.png" alt=""></p>
+<ul>
+<li>A cmd window opens in the repository path.</li>
+</ul>
+<p><img src="/images/win_cmd-prompt.png" alt=""></p>
+<ul>
+<li><em>Type <code>code .</code> in the cmd window prompt with the path</em></li>
+</ul>
+<p><img src="/images/code.png" alt=""></p>
+<ul>
+<li>VSC opens automatically.</li>
+</ul>
+<p><img src="/images/vsc.png" alt=""></p>
+<ul>
+<li><em>Open</em> your GitHub account Repositories page</li>
+</ul>
+<p><img src="/images/full-screen.png" alt=""></p>
+<p><em>Make sure the Git Bash terminal is in VSC (arrange it side-by-side with the GitHub page).</em></p>
+<p><img src="/images/git-bash-vsc.png" alt=""></p>
+<p>Run the following commands:</p>
+<pre><code>#Configure global settings​
+
+git config --global user.name &quot;Kyriacos Antoniades- Smartworkz&quot;`        
+git config --global user.email &quot;Kyriacos@smartworkz.nl&quot;`
+git config --global push.default matching`
+git config --global alias.co checkout`
+git config --global credential.helper cache​
+
+#Check​
+
+git config --global user.name`
+git config --global user.email`​
+#Initialize​
+git init`
+git status`
+git add .`
+git commit -m &quot;MLOPs code remote upload from the local repository&quot;
+
+#Push to the main branch*​
+
+git push
+</code></pre>
+<ul>
+<li><em>Create a GitHub Personal Access Token (PAT)</em></li>
+</ul>
+<ol>
+<li>
+<p>In the upper-right corner of any page, click your profile photo, then click <strong>Settings</strong>.</p>
+<p><img src="https://docs.github.com/assets/cb-34573/images/help/settings/userbar-account-settings.png" alt="Settings icon in the user bar"></p>
+</li>
+<li>
+<p>In the left sidebar, click <strong>Developer settings</strong>.</p>
+</li>
+<li>
+<p>In the left sidebar, click <strong>Personal access tokens</strong>.<img src="https://docs.github.com/assets/cb-7169/images/help/settings/personal_access_tokens_tab.png" alt="Personal access tokens"></p>
+</li>
+<li>
+<p>Click <strong>Generate new token</strong>.<img src="https://docs.github.com/assets/cb-6922/images/help/settings/generate_new_token.png" alt="Generate new token button"></p>
+</li>
+<li>
+<p>Give your token a descriptive name.<img src="https://docs.github.com/assets/cb-3880/images/help/settings/token_description.png" alt="Token description field"></p>
+</li>
+<li>
+<p>To give your token an expiration, select the <strong>Expiration</strong> drop-down menu, then click a default or use the calendar picker.<img src="https://docs.github.com/assets/cb-39847/images/help/settings/token_expiration.png" alt="Token expiration field"></p>
+</li>
+<li>
+<p>Select the scopes or permissions, you&rsquo;d like to grant this token. To use your token to access repositories from the command line, select <strong>repo</strong>.</p>
+<p><img src="https://docs.github.com/assets/cb-43299/images/help/settings/token_scopes.gif" alt="Selecting token scopes"></p>
+</li>
+<li>
+<p>Click <strong>Generate token</strong>.<img src="https://docs.github.com/assets/cb-10912/images/help/settings/generate_token.png" alt="Generate token button"></p>
+<p><img src="https://docs.github.com/assets/cb-31676/images/help/settings/personal_access_tokens_ghe.png" alt="Newly created token"></p>
+<p><strong>Warning:</strong> Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.</p>
+</li>
+</ol>
+<ul>
+<li>Save locally e.g. in a text file. Will be used shortly to specify in the stack details later.</li>
+</ul>
+<h2 id="2-create-the-mlops-pipeline">2. Create the MLOps pipeline</h2>
+<ul>
+<li><em>Navigate to the</em> <a href="https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Feu-west-1.console.aws.amazon.com%2Fcloudformation%2Fhome%3Fregion%3Deu-west-1%26state%3DhashArgs%2523%252F%26isauthcode%3Dtrue&amp;client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fcloudformation&amp;forceMobileApp=0&amp;code_challenge=2wvOgJKH4gI44qKCepanh-y6BA4SLHzP7S2hxNBhcJo&amp;code_challenge_method=SHA-256"><em>CloudFormation service</em></a></li>
+<li><em>Select Create stack</em></li>
+</ul>
+<p><img src="/images/01_cloudformation.png" alt=""></p>
+<ul>
+<li><em>Select Upload template file and upload the YAML file from the infrastructure folder called <code>infra/pipeline.yml</code></em></li>
+</ul>
+<p><img src="/images/02_cloudformation_create_stack.png" alt=""></p>
+<ul>
+<li><em>Specify the stack details. These include:</em>
+<ul>
+<li><strong>Stack name:</strong> mlpipeline</li>
+<li><strong>Email:</strong> <a href="mailto:Kyriacos@smartworkz.nl">Kyriacos@smartworkz.nl</a> (to receive SNS notification)</li>
+<li><strong>GitHub Token:</strong> {previously generated and saved locally}</li>
+<li><strong>GitHub User:</strong> smartworkz-kyriacos</li>
+<li><strong>GitHub Repository:</strong> mlops-sagemaker-ci-cd</li>
+<li><strong>Branch:</strong> master (main)</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/mlops_03_cloudformation_specify_stack.png" alt=""></p>
+<ul>
+<li><em>Click Next in the Configure stack options page</em></li>
+</ul>
+<p><img src="/images/04_cloudformation_configure_stack.png" alt=""></p>
+<ul>
+<li><em>Acknowledge that CloudFormation might create IAM resources with custom names and click Create stack</em></li>
+<li><em>You will see the stack creation which should be complete within some minutes.</em></li>
+</ul>
+<p><img src="/images/06_cloudformation_create_in_progress.png" alt=""></p>
+<h2 id="3-run-the-mlops-pipeline">3. Run the MLOps pipeline</h2>
+<p>This is how your pipeline looks now:</p>
+<p><img src="/images/mlops_pipeline.png" alt=""></p>
+<p>Now that you created CI/CD pipeline, it&rsquo;s time to start experimenting with it.</p>
+<ul>
+<li><em>Navigate to the CodePipeline service</em></li>
+</ul>
+<p><img src="/images/console-pipeline.png" alt=""></p>
+<ul>
+<li><em>Select your created pipeline</em></li>
+</ul>
+<p><img src="/images/pipeline-green.png" alt=""></p>
+<ul>
+<li>The steps include:
+<ul>
+<li><strong>Source:</strong> pulls code every time submit changes. Can be triggered manually by clicking on the <strong>Release change</strong> button.</li>
+<li><strong>Build_and_train:</strong> executes the <code>source\training.py</code> script. This downloads the data uploads to an S3 bucket creates a training job and deploys the model</li>
+<li><strong>Test_Model:</strong> executes the <code>source\test.py</code> script that performs a basic test of the deployed model</li>
+</ul>
+</li>
+</ul>
+<p>We will now make changes to this code in order to improve the model. The goal is to show you how you can focus on model implementation, and have CodePipeline perform training steps automatically every time you push changes to the GitHub repo.</p>
+<h2 id="4-use-gpu-and-spot-instances">4. Use GPU and Spot instances</h2>
+<ul>
+<li>
+<p><em>Modify <code>instance_type = &quot;ml.p3.2xlarge&quot;</code> in the <code>source\training.py</code> script</em></p>
+</li>
+<li>
+<p><em>In the <code>source\training.py</code> script uncomment these lines:</em></p>
+<ul>
+<li><code>use_spot_instances = True # Use a spot instance</code></li>
+<li><code>max_run = 300 # Max training time</code></li>
+<li><code>max_wait = 600 # Max training time + spot waiting time</code></li>
+</ul>
+</li>
+<li>
+<p>After making these changes your PyTorch estimator should be like this:</p>
+<pre><code>estimator = PyTorch(  
+					entry_point=&quot;code/mnist.py&quot;,  
+                    role=role,  
+                    framework_version=&quot;1.4.0&quot;,  
+                    instance_count=2,  
+                    instance_type=&quot;ml.p3.2xlarge&quot;,  
+                    py_version=&quot;py3&quot;,  
+                    use_spot_instances=True,  # Use a spot instance  
+                    max_run=300,  # Max training time  
+                    max_wait=600,  # Max training time + spot waiting time  
+                    hyperparameters={&quot;epochs&quot;: 14, &quot;backend&quot;: &quot;gloo&quot;},
+                    )
+</code></pre>
+</li>
+<li>
+<p><em>Commit and push changes to your GitHub repository</em></p>
+<p>At Git Bash run the following commands:</p>
+<pre><code>git status
+git add .`
+git commit -m &quot;MLOPs code remote upload from the local repository&quot;
+git push
+</code></pre>
+</li>
+<li>
+<p><em>Navigate to SageMaker Training jobs.</em></p>
+</li>
+</ul>
+<p><img src="/images/sagemaker-console.png" alt=""></p>
+<ul>
+<li><em>Check to see Manage Spot Training Savings</em></li>
+</ul>
+<p><img src="/images/spot-cost.png" alt=""></p>
+<h2 id="5-add-the-training-job-dependencies">5. Add the training job dependencies</h2>
+<ul>
+<li>
+<p><em>In the <code>source\training.py</code> script uncomment the following line <code>source_dir = &quot;code</code></em></p>
+</li>
+<li>
+<p><em>In the <code>source\training.py</code> script update entry_point to <code>entry_point=&quot;mnist.py&quot;</code></em></p>
+</li>
+<li>
+<p>This line will tell SageMaker to first install defined dependencies from <code>code/requirements.txt</code>, and then to upload all code inside of this folder to your container.</p>
+<p>Your estimator should now look like this:</p>
+<pre><code>estimator = PyTorch(  
+					entry_point=&quot;mnist.py&quot;,  
+                    source_dir=&quot;code&quot;,  
+                    role=role,  f
+                    ramework_version=&quot;1.4.0&quot;,  
+                    instance_count=2,  
+                    instance_type=&quot;ml.p3.2xlarge&quot;,  
+                    py_version=&quot;py3&quot;,  
+                    use_spot_instances=True,  # Use a spot instance  
+                    max_run=300,  # Max training time  
+                    max_wait=600,  # Max training time + spot waiting time  
+                    hyperparameters={&quot;epochs&quot;: 14, &quot;backend&quot;: &quot;gloo&quot;},
+                    )
+</code></pre>
+</li>
+</ul>
+<p>In order to do training with your new code, you should just commit and push changes to your GitHub repo as you did before!</p>
+<p>Now after some minutes, in the AWS console inside SageMaker and section <a href="https://eu-west-1.console.aws.amazon.com/sagemaker/home?region=eu-west-1#/jobs">Training jobs </a>you will see the new job being executed.</p>
+<h2 id="6-trigger-training-job-from-the-local-git-repository">6. Trigger training job from the local Git repository</h2>
+<p>In this section, you will trigger training jobs from your local machine without the need to commit and push every time.</p>
+<ul>
+<li><em>Use or Create</em> <a href="https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys"><em>AWS Access keys</em></a></li>
+<li><em>Install</em> <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"><em>AWS CLI</em></a></li>
+</ul>
+<p><a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html"><em>Set up</em></a> <em>your AWS CLI</em></p>
+<pre><code>aws configure    
+
+AWS Access Key ID [None]: enter your AWS Access Key ID    
+
+AWS Secret Access Key [None]: enter your AWS Secret Access Key    
+
+Default region name [None]: eu-west-1    
+
+Default output format [None]: json
+</code></pre>
+<ul>
+<li>
+<p><em>Create a virtual environment inside your project</em></p>
+<p>cd source</p>
+<p>python3 -m venv venv</p>
+<p>source venv/bin/activate</p>
+</li>
+<li>
+<p><em>Install required dependencies</em></p>
+<pre><code>pip install -r requirements.txt
+</code></pre>
+</li>
+<li>
+<p><em>Navigate to</em> <a href="https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Feu-west-1.console.aws.amazon.com%2Fcloudformation%2Fhome%3Fregion%3Deu-west-1%26state%3DhashArgs%2523%252Fstacks%26isauthcode%3Dtrue&amp;client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fcloudformation&amp;forceMobileApp=0&amp;code_challenge=URwODm8u3qJ-reT4-VjJK0HUS2_il02O30dEoJR9G4w&amp;code_challenge_method=SHA-256"><em>CloudFormation service stacks</em></a></p>
+</li>
+<li>
+<p><em>Select the stack created earlier and go to the output section</em></p>
+</li>
+</ul>
+<p><img src="/images/output.png" alt=""></p>
+<ul>
+<li>
+<p><em>Copy the ExampleLocalCommand</em></p>
+<pre><code>python training.py arn:aws:iam::xxxxxxx:role/mlops-sagemaker-role bucket-name MODEL-NAME VERSION
+</code></pre>
+</li>
+<li>
+<p><em>In the command line replace MODEL-NAME and VERSION and execute</em></p>
+</li>
+<li>
+<p><em>Navigate to SageMaker Training jobs, check to see Manage Spot Training Savings</em></p>
+</li>
+</ul>
+<p><img src="/images/spot-cost-2.png" alt=""></p>
+<h2 id="7-deploy-with-lambda-function">7. Deploy with Lambda function</h2>
+<p>Now that we have a working SageMaker endpoint, we can integrate it with other AWS services. In this lab, you will create <strong>API Gateway</strong> and <strong>Lambda function</strong>.</p>
+<p>This architecture will enable us to quickly test our endpoint through a simple <code>HTTP POST</code> request.</p>
+<p><img src="/images/mlops_lambda.png" alt=""></p>
+<ul>
+<li><em>Install Chalice</em></li>
+</ul>
+<p>Go to the <code>lambda</code> folder and install <code>chalice</code></p>
+<pre><code>pip install -r requirements-dev.txt
+</code></pre>
+<p>or run</p>
+<pre><code>pip install chalice==1.20.0
+</code></pre>
+<ul>
+<li><em>Navigate to your</em> <a href="https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Feu-west-1.console.aws.amazon.com%2Fsagemaker%2Fhome%3Fregion%3Deu-west-1%26state%3DhashArgs%2523%252Fendpoints%26isauthcode%3Dtrue&amp;client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fsagemaker&amp;forceMobileApp=0&amp;code_challenge=MSKAxc0JJQj_CobJpfJex4TeYhURJarE2euJ8d6Jfvg&amp;code_challenge_method=SHA-256"><em>SageMaker Endpoint</em></a> <em>in the AWS console and copy the name of the endpoint</em></li>
+</ul>
+<p><img src="/images/mlops_endpoint.png" alt=""></p>
+<ul>
+<li>
+<p><em>In the lambda\.chalice\config.json update the value of the ENDPOINT_NAME environment variable with the name of your SageMaker endpoint</em></p>
+<pre><code>{  
+&quot;version&quot;: &quot;2.0&quot;,  
+&quot;app_name&quot;: &quot;predictor&quot;,  
+&quot;autogen_policy&quot;: false,  
+&quot;automatic_layer&quot;: true,  
+&quot;environment_variables&quot;: {    
+	&quot;ENDPOINT_NAME&quot;: &quot;name-of-your-sagemaker-endpoint&quot;  
+    },  
+    &quot;stages&quot;: {    
+      &quot;dev&quot;: {      
+        &quot;api_gateway_stage&quot;: &quot;api&quot;    
+      }  
+    }
+ }
+</code></pre>
+</li>
+<li>
+<p><em>Deploy the Lambda function</em></p>
+</li>
+</ul>
+<p>Let&rsquo;s now deploy this Lambda by running</p>
+<pre><code>chalice deploy --stage dev
+</code></pre>
+<p>Make sure to run this command from the <code>lambda</code> folder. If your deployment times out due to your connection, please add <code>--connection-timeout 360</code> to your command.</p>
+<p>Our Lambda function expects to receive an image in the request body. It then reshapes this image so it can be sent to our trained model. Finally, it receives response from the SageMaker endpoint and returns it to requester.</p>
+<p>As we are exposing this Lambda function through REST API <code>@app.route(&quot;/&quot;, methods=[&quot;POST&quot;])</code>, Chalice will deploy it behind the API Gateway that will route the incoming traffic to it.</p>
+<ul>
+<li><em>Trigger your Lambda</em></li>
+</ul>
+<p>Now you can trigger this Lambda function by running included bash script</p>
+<pre><code>bash post.sh
+</code></pre>
+<p>This script will download an image, and send a <code>POST</code> request to your Lambda. The response will contain probabilities for this image and prediction made by the deployed model.</p>
+<pre><code>{   
+&quot;response&quot; : {      
+	&quot;Probabilities:&quot; : &quot;[[-3.10787258e+01 -1.61031952e+02 -2.43714166e+00 -2.35641022e+01\n  -1.84978195e+02 -9.14689526e-02 -5.73226471e+01 -8.57289124e+01\n  -7.99111023e+01 -9.30446320e+01]]&quot;,      
+    &quot;This is your number:&quot; : &quot;5&quot;   
+    }
+}</code></pre>
+
+          </div>
+          
+          
+        </div>
+      </div>
+      <!-- sidebar -->
+<aside class="col-lg-4 order-1 order-lg-2">
+  <!-- categories -->
+  <div class="bg-white mb-5">
+    <h4 class="mb-4">Categorien</h4>
+    <ul class="list-unstyled">
+      <li class="border-bottom"><a href="/categories/data-engineering" class="d-block pb-3 mt-3">Data engineering</a></li>
+    </ul>
+  </div>
+  <!-- tags -->
+  <div class="bg-white mb-5">
+    <h4 class="mb-4">Tags</h4>
+  </div>
+  <!-- latest post -->
+  <div class="bg-white">
+    <h4 class="mb-4">Laatste artikel</h4>
+    <!-- post-item -->
+    
+    <div class="media border-bottom border-color pb-3 mb-3">
+      <a href="/blog/machine-learning/"><img class="mr-3 post-thumb-sm" src="/images/logo.jpg"></a>
+      <div class="media-body">
+        <a href="/blog/machine-learning/">
+          <h5 class="mt-0">Machine Learning</h5>
+        </a>
+        03 Oct 2022
+      </div>
+    </div>
+    
+    <div class="media border-bottom border-color pb-3 mb-3">
+      <a href="/blog/dockerizing-your-development-environment/"><img class="mr-3 post-thumb-sm" src="/images/1_ovruauqpf4r2xpiwh71rug.png"></a>
+      <div class="media-body">
+        <a href="/blog/dockerizing-your-development-environment/">
+          <h5 class="mt-0">Dockerizing your development environment</h5>
+        </a>
+        27 Apr 2020
+      </div>
+    </div>
+    
+  </div>
+</aside>
+<!-- /sidebar -->
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  
+  
+  
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          
+          <a class="logo-footer" href="/"><img class="img-fluid mb-4"
+              src="/images/logo-cropped.svg" alt="Smartworkz | Smart experts in data science &amp; data engineering"></a>
+          <ul class="list-unstyled">
+            <li class="mb-4">Tractieweg 41 studio E, 3534 AP Utrecht</li>
+            <li class="mb-4"><a href="mailto:info@smartworkz.nl">info@smartworkz.nl</a></li>
+            <li class="mb-4">+31 (0)6 22 55 71 92</li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase">bedrijf</h4>
+          <ul class="list-unstyled">
+            
+            <li class="mb-3"><a class="text-color" href="/insights">Insights</a></li>
+            
+            <li class="mb-3"><a class="text-color" href="/about">Over</a></li>
+            
+            <li class="mb-3"><a class="text-color" href="/contact">Contact</a></li>
+            
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase">links</h4>
+          <ul class="list-unstyled">
+            
+            <li class="mb-3"><a class="text-color" href="/team">Team</a></li>
+            
+            <li class="mb-3"><a class="text-color" href="/event">Events</a></li>
+            
+            <li class="mb-3"><a class="text-color" href="/blog">Blogs</a></li>
+            
+            <li class="mb-3"><a class="text-color" href="/work-at">Werken bij</a></li>
+            
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5 text-uppercase">Workshops</h4>
+          <ul class="list-unstyled">
+            
+            <li class="mb-3"><a class="text-color" href="/course/course-3/">Word een AWS Certified Azure expert</a></li>
+            
+          </ul>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">Copyright © 2021 by <a href="https://kokkelaar.nl">kokkelaar</a></p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://github.com/smartworkz-nl"><i
+                  class="ti-github text-primary"></i></a></li>
+            
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.linkedin.com/company/smartworkznl/"><i
+                  class="ti-linkedin text-primary"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/venobox/venobox.min.js"></script>
+
+<script src="/plugins/filterizr/jquery.filterizr.min.js"></script>
+
+<script src="/plugins/owl.carousel/owl.carousel.min.js"></script>
+
+<script src="/plugins/scrollreveal/scrollreveal.min.js"></script>
+
+<script src="/plugins/rellax/rellax.min.js"></script>
+
+<script src="/plugins/tech-radar/d3.min.js"></script>
+
+<script src="/plugins/tech-radar/random.js"></script>
+
+<script src="/plugins/tech-radar/tech-radar.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3PG6NYRP8M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-3PG6NYRP8M');
+</script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ons team on Smartworkz | Smart experts in data science &amp; data engineering</title>
+    <link>/about/team/</link>
+    <description>Recent content in Ons team on Smartworkz | Smart experts in data science &amp; data engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-NL</language>
+    <copyright>Copyright &amp;copy; 2021 by [kokkelaar](https://kokkelaar.nl)</copyright><atom:link href="/about/team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sander</title>
+      <link>/team/david/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/david/</guid>
+      <description> test test </description>
+    </item>
+    
+    <item>
+      <title>Sander</title>
+      <link>/team/willem-bressers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/willem-bressers/</guid>
+      <description> test test </description>
+    </item>
+    
+  </channel>
+</rss>

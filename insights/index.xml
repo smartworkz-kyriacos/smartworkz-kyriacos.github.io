@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Insights on Smartworkz | Smart experts in data science &amp; data engineering</title>
+    <link>/insights/</link>
+    <description>Recent content in Insights on Smartworkz | Smart experts in data science &amp; data engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-NL</language>
+    <copyright>Copyright &amp;copy; 2021 by [kokkelaar](https://kokkelaar.nl)</copyright><atom:link href="/insights/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

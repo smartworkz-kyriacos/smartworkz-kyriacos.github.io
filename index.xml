@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smartworkz | Smart experts in data science &amp; data engineering</title>
+    <link>/</link>
+    <description>Recent content on Smartworkz | Smart experts in data science &amp; data engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-NL</language>
+    <copyright>Copyright &amp;copy; 2021 by [kokkelaar](https://kokkelaar.nl)</copyright>
+    <lastBuildDate>Mon, 03 Oct 2022 22:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Word een AWS Certified Analytics expert</title>
+      <link>/solutions/solutions-work-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/solutions/solutions-work-2/</guid>
+      <description>Onze Microsoft gecertificeerde trainers nemen je mee in de AWS wereld van AI en ML.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>/blog/machine-learning/</link>
+      <pubDate>Mon, 03 Oct 2022 22:00:00 +0000</pubDate>
+      
+      <guid>/blog/machine-learning/</guid>
+      <description>MLOps with CI/CD on local Git repository Train, deploy, and host your models on AWS.</description>
+    </item>
+    
+    <item>
+      <title>Start Smartworkz</title>
+      <link>/timeline/timeline-1/</link>
+      <pubDate>Mon, 01 Aug 2022 10:00:00 +0000</pubDate>
+      
+      <guid>/timeline/timeline-1/</guid>
+      <description>Lora Lora</description>
+    </item>
+    
+    <item>
+      <title>Continuous Delivery for Machine Learning - On the right tracks with CD4ML</title>
+      <link>/event/data-science-meetup-continuous-delivery-for-machine-learning-on-the-right-tracks-with-cd4ml/</link>
+      <pubDate>Thu, 26 Aug 2021 06:15:00 +0000</pubDate>
+      
+      <guid>/event/data-science-meetup-continuous-delivery-for-machine-learning-on-the-right-tracks-with-cd4ml/</guid>
+      <description>Companies that have to manage lots of assets (railroads, ports, highways, or other infrastructure related institutions) have to inspect and administer the configuration and condition manually, multiple times a year.</description>
+    </item>
+    
+    <item>
+      <title>Dockerizing your development environment</title>
+      <link>/blog/dockerizing-your-development-environment/</link>
+      <pubDate>Mon, 27 Apr 2020 22:00:00 +0000</pubDate>
+      
+      <guid>/blog/dockerizing-your-development-environment/</guid>
+      <description>Most development environments are not heterogenous. Over time more languages, libraries, frameworks &amp;amp; tools are introduced into the organisation, while others are phased out.</description>
+    </item>
+    
+    <item>
+      <title>Word een AWS Certified Azure expert</title>
+      <link>/course/course-3/</link>
+      <pubDate>Sat, 06 Jul 2019 09:27:17 +0000</pubDate>
+      
+      <guid>/course/course-3/</guid>
+      <description>Lora Lora</description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>/tech/tech-aws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/tech-aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azure</title>
+      <link>/tech/tech-azure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/tech-azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dataiku</title>
+      <link>/tech/tech-dataiku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/tech-dataiku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elastic</title>
+      <link>/tech/tech-elastic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/tech-elastic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Essent</title>
+      <link>/customers/customer-nike/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/customers/customer-nike/</guid>
+      <description>Lora Lora</description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>/tech/tech-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/tech-github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gitlab</title>
+      <link>/tech/tech-gitlab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/tech-gitlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>/tech/tech-golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/tech-golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>/tech/tech-java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tech/tech-java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sander</title>
+      <link>/team/david/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/david/</guid>
+      <description> test test </description>
+    </item>
+    
+    <item>
+      <title>Sander</title>
+      <link>/team/willem-bressers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/willem-bressers/</guid>
+      <description> test test </description>
+    </item>
+    
+  </channel>
+</rss>

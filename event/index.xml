@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Smartworkz | Smart experts in data science &amp; data engineering</title>
+    <link>/event/</link>
+    <description>Recent content in Events on Smartworkz | Smart experts in data science &amp; data engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-NL</language>
+    <copyright>Copyright &amp;copy; 2021 by [kokkelaar](https://kokkelaar.nl)</copyright>
+    <lastBuildDate>Thu, 26 Aug 2021 06:15:00 +0000</lastBuildDate><atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous Delivery for Machine Learning - On the right tracks with CD4ML</title>
+      <link>/event/data-science-meetup-continuous-delivery-for-machine-learning-on-the-right-tracks-with-cd4ml/</link>
+      <pubDate>Thu, 26 Aug 2021 06:15:00 +0000</pubDate>
+      
+      <guid>/event/data-science-meetup-continuous-delivery-for-machine-learning-on-the-right-tracks-with-cd4ml/</guid>
+      <description>Companies that have to manage lots of assets (railroads, ports, highways, or other infrastructure related institutions) have to inspect and administer the configuration and condition manually, multiple times a year.</description>
+    </item>
+    
+  </channel>
+</rss>
